@@ -4,7 +4,7 @@
 
     // declare variables that will be used in this example
     var myMap;                  // holds the map object drawn on the 
-    var myField;                // holds the KML objec
+    var myField;                // holds the KML object
     var centerpoint;            // center point of the map
 
     /**

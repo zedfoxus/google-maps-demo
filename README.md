@@ -14,3 +14,8 @@ This example illustrates multiple possibilities
 
 ---
 
+Show KML
+-------------
+This example illustrates how KML can be shown on Google Maps
+
+---

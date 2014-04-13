@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Draw continuous real-time polygons</title>
+    <style>
+        img { 
+            max-width: 100%; 
+        }
+        #map-canvas img { 
+            max-width: none; 
+        }
+        html, body, #map-canvas {
+            height: 100%;
+            margin: 0px;
+            padding: 0px;
+        }
+    </style>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&libraries=drawing,geometry"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="real-time-polygons-example.js"></script>
+</head>
+<body>
+    <div id="map-canvas"></div>
+    <div id="drawagain"><input type="button" value="Draw Again" onclick="drawAgain()"></div>
+<body>
+</html>
+

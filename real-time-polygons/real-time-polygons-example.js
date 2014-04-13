@@ -1,9 +1,7 @@
     var myMap;
     var myObject = new Array();
-    var myPolygon = new Array();
     var myInterval;
     var intervalCounter = 0;
-    var myPolygonCount = 0;
     var myInfoWindow;
     var centerpoint;
 
@@ -186,8 +184,11 @@
         var coordinateMessage = '<p>My coordinates are: <br>';
         var consoleCoordinates = '';
         for (var i = 0; i < coordinates.length; i++) {
-            coordinateMessage += coordinates[i].lat() + ', ' + coordinates[i].lng() + '<br>';
-            consoleCoordinates += 'new google.maps.LatLng(' + coordinates[i].lat() + ', ' + coordinates[i].lng() + '),\n';
+            coordinateMessage += coordinates[i].lat() 
+                + ', ' + coordinates[i].lng() + '<br>';
+            consoleCoordinates += 'new google.maps.LatLng(' 
+                + coordinates[i].lat() 
+                + ', ' + coordinates[i].lng() + '),\n';
         }
         message += coordinateMessage;
 

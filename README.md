@@ -39,6 +39,7 @@ This example extends previously created Make Polygons example by
 - Catch information about the point when it is drawn
 - Add the information about the point to Info Window when it is clicked
 - Allow the point to be deleted
+- Add Ohio counties on the map using FusionTables
 
 ---
 

@@ -77,9 +77,8 @@
         // have no default drawing tool selected. If drawingMode was set to 
         // google.maps.drawing.OverlayType.POLYGON, polygon would be auto-
         // selected
-        // drawingModes can have multiple information. Over here only the
-        // polygon capability is added along with the default of hand icon
-        // Moreover, polygonOptions are specified as defaults
+        // drawingModes can have multiple information. Over here we are adding
+        // point (aka marker) and polygon capabilities.
         myDrawingManager = new google.maps.drawing.DrawingManager({
             drawingMode: null,
             drawingControl: true,

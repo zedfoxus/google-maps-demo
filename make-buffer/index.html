@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Make 20 km radius/buffer around a point</title>
+    <style>
+        img { 
+            max-width: 100%; 
+        }
+        #map-canvas img { 
+            max-width: none; 
+        }
+        html, body, #map-canvas {
+            height: 100%;
+            margin: 0px;
+            padding: 0px;
+        }
+    </style>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false&libraries=drawing,geometry"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="map-buffer-example.js"></script>
+</head>
+<body>
+    <div id="map-canvas"></div>
+</body>
+</html>

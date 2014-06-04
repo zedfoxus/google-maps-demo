@@ -17,8 +17,7 @@
         // build the map's center poiint
         centerpoint = new google.maps.LatLng(45.00495,-90.00052);
 
-        // assign map the options of zoom, center point and set the map to
-        // SATELLITE
+        // assign map the options of zoom and center point
         var mapOptions = {
             zoom: 10, 
             center: centerpoint

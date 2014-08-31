@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Address to latitude/longitude using Google Geocoding API</title>
+    <style type="text/css">
+    .pad10, p { padding: 10px;}
+    </style>
+    <link type="text/css" rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+    <script type="text/javascript" src="geocoding.js"></script>
+</head>
+<body>
+
+    <h3>Obtain latitude/longitude from address using Google Geocoding API</h3>
+    <div id="container">
+
+        <div>
+            <p class="bg-info">
+                Enter an address in the box below and press the button to get 
+                latitude and longitude for this address using Google Geocoding API
+            </p>
+        </div>
+
+        <div class="row">
+            <form role="form" action="./" method="get" onsubmit="return false;">
+                <div class="col-sm-4">
+                    <input type="text" id="address" class="form-control" placeholder="Address">
+                </div>
+                <button type="button" id="geocode" class="btn btn-primary">Show Lat/Lon</button>
+            </form>
+        </div>
+
+        <p id="latlon"></p>
+
+    </div>
+</body>
+</html>

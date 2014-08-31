@@ -43,3 +43,13 @@ This example extends previously created Make Polygons example by
 
 ---
 
+Make buffer around a point
+--------------------------
+This examples illustrates how a 20 km radius circle (buffer circle) can be
+created around a point using Google Maps API v3.
+
+- Allow user to click anywhere on the map and create a marker automatically
+- Create a circle around the marker with 20 km radius/buffer
+
+---
+
